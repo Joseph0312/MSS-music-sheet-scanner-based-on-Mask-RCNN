@@ -1,2 +1,2 @@
-# MSS-music-sheet-scanner-based-on-deep-learning
+# MSS-music-sheet-scanner-based-on-Mask-RCNN
 我們的作品是做樂譜數位典藏的程式，開發平台為Google-Colab，主要以Python作為核心語法，將樂譜圖片傳入程式以正交投影從圖片切割出小節，對切割完的小節圖片做Mask R-CNN物件分析，再同樣以正交投影找出樂符音高與符號間的關聯性，最終還原完整樂譜並轉換為便於保存、編輯的Lilypond格式，且可以用.midi檔播放。 我們的成果核心為Mask R-CNN，在提Mask R-CNN之前首先要提Fast-RCNN作法，就是將CNN輸出的特徵圖的每個點看成是一系列不同大小框的中心點, 這每個框都會和標籤目標相比輸出IoU(Intersect over union)以及是否為目標。而下一步就是接上標籤類別庫，就可以知道是什麼目標。這就是大致上Faster R-CNN在做的事. 而Mask R-CNN就是在Faster R-CNN的架構下同時輸出物件偵測、實例分割的結果。 關鍵字：卷積神經網路、樂譜識別、數位影像處理
