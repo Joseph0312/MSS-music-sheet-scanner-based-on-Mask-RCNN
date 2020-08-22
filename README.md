@@ -6,7 +6,7 @@
 # 進行步驟
 
 ## 流程圖
-![](MSS-music-sheet-scanner-based-on-Mask-RCNN/Picture for readme/001.jpg)
+![](Picture for readme/001.jpg)
 
 ## (1)輸入樂譜圖檔
 使用者輸入一份欲辨識的圖片檔(JPG、PNG)，為了提高辨識的正確性，該圖片的五線譜須為水平線段。
