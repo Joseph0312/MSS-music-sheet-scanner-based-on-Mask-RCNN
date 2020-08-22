@@ -3,6 +3,9 @@
 
 ![image](https://github.com/Joseph0312/MSS-music-sheet-scanner-based-on-Mask-RCNN/blob/master/Picture%20for%20readme/note_detect_result.png)
 
+<H1>流程圖</H1>
+![image](https://github.com/Joseph0312/MSS-music-sheet-scanner-based-on-Mask-RCNN/blob/master/Picture%20for%20readme/001.jpg)
+
 <H1>進行步驟</H1>
 <H3>(1)輸入樂譜圖檔</H3>
 使用者輸入一份欲辨識的圖片檔(JPG、PNG)，為了提高辨識的正確性，該圖片的五線譜須為水平線段。
