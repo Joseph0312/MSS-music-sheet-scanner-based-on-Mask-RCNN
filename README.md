@@ -40,6 +40,7 @@
 
 ## (6)匯出樂譜.ly 檔及輸出 PDF 與 MIDI
 在辨識完各小節的音高及拍長後，合併所有小節的資料，將其轉換為.ly檔並輸出。使用者可將.ly 檔匯入LilyPond，便可取得該樂譜辨識後的PDF文件，及 MIDI 音樂檔。
+
 ![](Picture_of_readme/校歌PDF截圖.jpg)
 ![](Picture_of_readme/校歌MIDI.jpg)
 也可透過 Frescobaldi(註2)，直接對輸出的 ly 檔進行查看或編輯，如圖(十)。
