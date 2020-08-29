@@ -45,7 +45,7 @@
 * **辨識拍長**
 將 Mask R-CNN 辨識後的結果，輸入到拍長檢測的函式，透過各個元件的 X 座標，檢測元件是否重疊，進而判斷出各元件的拍長。
 
-![](Picture_of_readme/拍常判斷.jpg)
+![](Picture_of_readme/拍長判斷.jpg)
 
 ## (5)即時預覽樂譜
 取得檢測樂譜的結果，結合收到的樂符類別與音符拍長，利用 music21的樂譜套件轉換為可在 Google Colab 上及時預覽的樂譜，如圖(八)。
@@ -54,8 +54,11 @@
 在辨識完各小節的音高及拍長後，合併所有小節的資料，將其轉換為.ly檔並輸出。使用者可將.ly 檔匯入LilyPond，便可取得該樂譜辨識後的PDF文件，及 MIDI 音樂檔。
 
 ![](Picture_of_readme/校歌PDF截圖.jpg)
+
 ![](Picture_of_readme/校歌MIDI.jpg)
+
 也可透過 Frescobaldi(註2)，直接對輸出的 ly 檔進行查看或編輯，如圖(十)。
+
 ![](Picture_of_readme/Frescobaldi畫面.jpg)
 
 # Mask R-CNN 訓練過程
