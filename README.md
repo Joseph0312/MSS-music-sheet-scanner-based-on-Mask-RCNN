@@ -17,7 +17,9 @@
 ## (3)切割小節
 只保留段落圖片中，位於五線內的資訊，其餘刪除，如圖(三 b)所示。並將該圖做正交投影至 X 軸，而小節線所在的 X 座標位置會有最大值，以最大值所在之 X 座標切割，即可切出各個小節，如圖(三 c)所示。
 ![](Picture_of_readme/004.jpg)
+
 <center>段落圖片原圖</center>
+
 ![](Picture_of_readme/005.jpg)
 <center>圖(三 b) 只保留五線內的資訊</center>
 ![](Picture_of_readme/006.jpg)
